@@ -1,0 +1,29 @@
+{
+  "name": "pyxterm",
+  "version": "0.0.4",
+  "homepage": "https://github.com/mitotic/pyxterm",
+  "authors": [
+    "R. Saravanan <sarava@sarava.net>",
+    "Christopher Jeffrey <chjjeffrey@gmail.com>"
+  ],
+  "description": "A terminal written in javascript with a python backend",
+  "main": [
+    "pyxterm/_static/term.js",
+    "pyxterm/_static/pyxterm.js"
+  ],
+  "keywords": [
+    "term",
+    "term.js",
+    "pyxterm",
+    "terminal",
+    "python"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

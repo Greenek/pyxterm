@@ -47,7 +47,7 @@
     });
 
     this.emit('title', remoteParams.term_path);
-    this.open(document.body);
+    this.open(options.parent || document.body);
 
     self.socket.on('stdout', function(data) {
       self.write(data);
